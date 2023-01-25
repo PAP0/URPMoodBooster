@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MoodBooster/mainmenu.unity
+    guid: bc91bdf98590cf1449b405300cc55580
+  - enabled: 1
     path: Assets/MoodBooster/White/White.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/MoodBooster/Fire/Fire.unity
+    guid: ea149790fa3ad2f4994eee38bbe4730d
+  - enabled: 1
+    path: Assets/MoodBooster/Indigo/Indigo.unity
+    guid: 6b23cefa5ea1c4a488ef141d8acc6df1
+  - enabled: 1
+    path: Assets/MoodBooster/Orange/Orange.unity
+    guid: c79b273921ff538458bc6e26cb059f9e
+  - enabled: 1
+    path: Assets/MoodBooster/Yellow/Yellow.unity
+    guid: d1e9c3068e0bac34cb23e028130415ea
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9ec4e922380b58343b0ffcd6aec363e0,
       type: 2}
