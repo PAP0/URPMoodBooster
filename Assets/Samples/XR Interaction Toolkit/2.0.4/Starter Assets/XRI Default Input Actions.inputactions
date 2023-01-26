@@ -1093,6 +1093,56 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Menu button",
+            "id": "de418c1d-b9d1-4466-8c6d-79add07654f3",
+            "actions": [
+                {
+                    "name": "Return to menu",
+                    "type": "Button",
+                    "id": "0aa4babf-7e30-4120-af4e-a6aa7e6b4e00",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0bfd476b-51c7-48ac-963a-85ba993bf738",
+                    "path": "<OculusTouchController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Return to menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66a70031-860c-4f11-a953-f213d5326915",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Return to menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f98964a7-386b-4772-9b76-50b2c82146c2",
+                    "path": "<Keyboard>/#(M)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Return to menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
@@ -1118,6 +1168,21 @@
                 {
                     "devicePath": "<WMRHMD>",
                     "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<OculusTouchController>{LeftHand}",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<OculusTouchController>{RightHand}",
+                    "isOptional": false,
                     "isOR": false
                 }
             ]
