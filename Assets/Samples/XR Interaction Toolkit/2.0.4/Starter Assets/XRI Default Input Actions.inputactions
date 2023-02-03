@@ -1141,6 +1141,28 @@
                     "action": "Return to menu",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fad1aa2a-9b41-4f50-bafe-d8be6d1b5138",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Return to menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bec4a342-bdaf-4d5e-b732-c572969050ba",
+                    "path": "<XRController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Return to menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
