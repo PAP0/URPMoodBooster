@@ -3971,7 +3971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -----------Open Menu
+  m_Text: -----------Return to menu
 --- !u!224 &1942142328400382999
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3989,7 +3989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 6.9}
+  m_AnchoredPosition: {x: 24.9, y: 6.9}
   m_SizeDelta: {x: 1057.42, y: 247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3181495705462297663
@@ -4724,6 +4724,7 @@ GameObject:
   - component: {fileID: 8238172150606479191}
   - component: {fileID: 8238172150606479190}
   - component: {fileID: 8238172150606479192}
+  - component: {fileID: 8238172150606479193}
   m_Layer: 5
   m_Name: Instructions
   m_TagString: Untagged
@@ -4838,6 +4839,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &8238172150606479193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238172150606479177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &8238172150767898352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4855,7 +4875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8238172150767898353
 RectTransform:
   m_ObjectHideFlags: 0
