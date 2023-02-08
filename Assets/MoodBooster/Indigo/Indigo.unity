@@ -1653,19 +1653,7 @@ MonoBehaviour:
     m_ActionId: 57b2a1b4-3290-46d6-ac07-4854ee8f91b1
     m_ActionName: XRI RightHand/Haptic Device
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 899828639}
-        m_TargetAssemblyTypeName: loadscene, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: c78b2360-bdbd-40aa-ba5c-4958e3e895f7
     m_ActionName: XRI RightHand/Return to menu
   - m_PersistentCalls:
@@ -1721,12 +1709,24 @@ MonoBehaviour:
     m_ActionId: 00a4dc9f-1ee6-4349-b0e9-72d5dccaadd6
     m_ActionName: XRI RightHand Locomotion/Move
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 899828639}
+        m_TargetAssemblyTypeName: loadscene, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 0aa4babf-7e30-4120-af4e-a6aa7e6b4e00
     m_ActionName: Menu button/Return to menu[/Keyboard/space,/Keyboard/m]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: XRI Head
+  m_DefaultActionMap: Menu button
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 869619397}
 --- !u!4 &899828641
@@ -1773,7 +1773,8 @@ MonoBehaviour:
   m_System: {fileID: 899828642}
   m_TurnSpeed: 60
   m_InputBinding: 0
-  m_Controllers: []
+  m_Controllers:
+  - {fileID: 167525615}
   m_DeadzoneMin: 0.125
   m_DeadzoneMax: 0.925
 --- !u!1 &988250829
